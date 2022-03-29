@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <meta name="description" content="Asian BMI Calculator is to calculate Body Mass Index designed specifically for Asians due to different lifestyle, health and eating habits.">
+        <title>Asian BMI calculator</title>
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/icons/favicon.ico" type="image/x-icon"> <!-- 16 x 16 pixels -->  
+        
+        <!-- Open Graph -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://bolaji-wc.netlify.com/">
+        <meta property="og:title" content="Asian BMI Calculator">
+        <meta property="og:image" content="img/icons/favicon.ico">
+        <meta property="og:description" content="Asian BMI Calculator">
+        <meta property="og:site_name" content="BMI Calculator">
+        <!-- Next tags are optional but recommended -->
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <!-- GA -->
+
+        <!-- Twitter cards -->
+
+        <!-- Manifest -->
+        <link rel="manifest" href="manifest.json">
+        <meta name="theme-color" content="#3f51b5">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row"><div class="col-md-3"></div>
+              <div class="col-md-6">
+                <h2 class="display-4 mb-3">What is BMI?</h2>
+                <p>The Body Mass Index or BMI is a simple and the most commonly used index used to classify overweight and obesity.</p>
+              </div>
+            </div>
+            <div class="row"><div class="col-md-3"></div>
+              <div class="col-md-6">
+                <h2 class="display-4 mb-3">Why Asian BMI Calculator?</h2>
+                <p>Asian BMI Calculator is designed especially for Asians to calculate body mass index as standard BMI calculation may not be suitable for asians attributing to the nature of different lifestyle, health and eating habits.</p>
+              </div>
+            </div>
+
+            <div class="row"><div class="col-md-3"></div>
+              <div class="col-md-6">
+                <h2 class="display-4 mb-3">Asian BMI Calculator</h2>
+                <form>
+                  <div class="form-group">
+                    <div class="col-12"> 
+                      <label for="formGroupExampleInput" class="form-label">Height:</label>
+                      <input type="number" class="form-control form-control-lg" id="hIn" placeholder="Enter your height" required>
+                    </div>
+                    <div class="col-12">
+                      <label for="formGroupExampleInput" class="form-label">Weight:</label>
+                      <input type="number" class="form-control form-control-lg" id="wIn" placeholder="Enter your weight" required>
+                    </div>
+                  </div>
+                </form>
+                <div id="output">
+                  <div class="card bg-primary mb-2">
+                    <div class="card-block">
+                      <h4>Your BMI:</h4>
+                      <div id="bmi"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      <script src="js/app.js"></script>
+      
+    </body>
+</html>
