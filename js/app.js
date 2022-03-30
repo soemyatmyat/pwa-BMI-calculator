@@ -1,29 +1,34 @@
 const hIn=document.getElementById('hIn')
 const wIn=document.getElementById('wIn')
-const bmi=document.getElementById('bmi');
+const bmi=document.getElementById('bmi')
+let bmiVal=0
 
 //output.style.visibility = 'hidden';
 
 
 hIn.addEventListener('input', (e) => {
-  let hInVal=hIn.value/100
-  let wInVal=wIn.value
-  let hInSqr=hInVal*hInVal
-  if (hInVal != "" && wInVal !="") {
-    bmi.innerHTML=(wInVal/hInSqr).toFixed(2)
-  }
-  e.preventDefault();
-});
+    let hInVal=hIn.value/100
+    let wInVal=wIn.value
+    let hInSqr=hInVal*hInVal
+    bmiVal=(wInVal/hInSqr).toFixed(2)
+    if (hInVal != "" && wInVal !="") {
+        bmi.innerHTML=bmiVal
+    }
+    displayChart()
+    e.preventDefault()
+})
 
 wIn.addEventListener('input', (e) => {
     let hInVal=hIn.value/100
     let wInVal=wIn.value
     let hInSqr=hInVal*hInVal
+    bmiVal=(wInVal/hInSqr).toFixed(2)
     if (hInVal != "" && wInVal !="") {
-      bmi.innerHTML=(wInVal/hInSqr).toFixed(2)
+        bmi.innerHTML=bmiVal
     }
-    e.preventDefault();
-});
+    displayChart()
+    e.preventDefault()
+})
   
 
 // Feature detection - check if browser supports push messaging.

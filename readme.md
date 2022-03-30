@@ -12,7 +12,7 @@ It loads a minimal UI and content asap and caching it so that it’s available o
 1. index.html: serves the UI to visitors 
 2. js > app.js: initalize the app - it generates the app's displayed content and registers the service worker (sw.js)
 3. sw.js: Upon service worker install completion, load data files (if any) and caches the minimal contents required for the app to function offline
-4. manifest.json: Provides info about the web app in JSON, necessary for the web app to be downloaded and be presented to the user similarly to a native app.
+4. manifest.json (intallable): Provides info about the web app in JSON, necessary for the web app to be downloaded and be presented to the user similarly to a native app. Scope is manifest.json must be the same as the scope defined in the registration of service worker. For mainfest.json to work, service-worker.js must be found in the same directory as the scope.
 
 ## how to run 
 1. Download the source code to your computer
