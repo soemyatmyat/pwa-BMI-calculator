@@ -36,7 +36,8 @@ This app works perfectly fine without any network connection as all the necessar
 ## References
 https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers<Br>
 https://web.dev/service-worker-caching-and-http-caching/<br>
-https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/App_structure#architecture_of_an_app
+https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/App_structure#architecture_of_an_app<br>
+https://developer.chrome.com/docs/workbox/caching-strategies-overview/
 
 
 

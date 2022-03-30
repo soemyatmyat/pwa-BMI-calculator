@@ -36,31 +36,31 @@ const displayChart=() => {
             aperture: 180,
             minValue: 0,
             maxValue: 40,
-            step: 5,
+            step: 0.1,
             center: { visible: false },
-            //tick: { visible: false },
+            tick: { visible: false },
             item: {
                 offsetR: 0,
 
             },
-            labels: ['','','','18.5','23','27.5','','','40'],
+            //labels: ['','','','','18.5','23','27.5','','40'],
             ring: {
                 size: 50,
                 rules: [
                     {
-                        rule: '%v <= 10',
+                        rule: '%v <= 18.5',
                         backgroundColor: '#29B6F6'
                     },
                     {
-                        rule: '%v > 10 && %v <= 15',
+                        rule: '%v > 18.5 && %v <= 23',
                         backgroundColor: '#00E400'
                     },
                     {
-                        rule: '%v > 15 && %v <= 20',
+                        rule: '%v > 23 && %v <= 27.5',
                         backgroundColor: '#FFA726'
                     },
                     {
-                        rule: '%v > 20',
+                        rule: '%v > 27.5',
                         backgroundColor: '#E53935'
                     }
                 ]
@@ -80,7 +80,7 @@ const displayChart=() => {
     };
    
     zingchart.render({
-        id: 'bmi',
+        id: 'bmi-chart',
         data: myConfig,
         height: 500,
         width: '100%'
