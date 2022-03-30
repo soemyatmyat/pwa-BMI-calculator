@@ -10,6 +10,7 @@ const appShellFiles=[
     '../img/icons/android-chrome-512x512.png'
 ]
 
+console.log("Greetings from sw.js")
 //1. Install the service worker 
 self.addEventListener('install',(e)=> {
     console.log('[Service Worker] Installation Complete')
