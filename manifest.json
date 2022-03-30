@@ -14,7 +14,7 @@
         }
     ],
     "start_url":"/pwa-BMI-calculator/index.html",
-    "scope":".",
+    "scope":"/pwa-BMI-calculator/",
     "display":"standalone",
     "background_color":"#fff",
     "theme_color":"#3f51b5"
