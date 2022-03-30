@@ -38,7 +38,7 @@ const check=() => {
 // Register a Service Worker
 const registerServiceWorker=async () => { 
     //register the serviceworker, supply where serviceworker file is located
-    const swRegistration = await navigator.serviceWorker.register('pwa-BMI-calculator/sw.js',{scope:'/pwa-BMI-calculator/'}).then(function(registration) {
+    const swRegistration = await navigator.serviceWorker.register('/sw.js',{scope:'/pwa-BMI-calculator/'}).then(function(registration) {
         registration.addEventListener('updatefound',function(){
             console.log('[Service Worker] A new service worker is being installed')
         })
