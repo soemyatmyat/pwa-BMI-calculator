@@ -1,5 +1,6 @@
 ## pwa-BMI-calculator
-Installable as an app, Network Independent Progressive Web App: BMI Calculator
+Installable as an app, Network Independent Progressive Web App: BMI Calculator 
+https://soemyatmyat.github.io/pwa-BMI-calculator/
 
 ## objective
 To demostrate the workable and yet a simple version of PWA
@@ -31,6 +32,16 @@ Then, navigate to http://localhost:{port}/ and would see index.html page loaded.
 7. In Chrome, go to three dots setting and Click on "Install BMI Calculator..". BMI calculator will be installed locally to your computer. <br>
 This app works perfectly fine without any network connection as all the necessary files have been cached.
 8. Launch BMI calculator.app from your computer. 
+
+Alternatively, goto https://soemyatmyat.github.io/pwa-BMI-calculator/
+
+### Screencaps
+
+1. A clean and simple web app, downloadable as an app to computing devices (laptops, phones, tablets, etc.)<br/>
+![How it looks in Browser](https://github.com/soemyatmyat/pwa-BIM-calculator/blob/master/OnChromeBrowser.png?raw=true)
+2. Works without an internet (all necessary files are cached) 
+![As An App](https://github.com/soemyatmyat/pwa-BIM-calculator/blob/master/AppMacOS.png?raw=true)
+![App Open](https://github.com/soemyatmyat/pwa-BIM-calculator/blob/master/OnInstallableApp.png?raw=true)
 
 
 ## References
