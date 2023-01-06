@@ -40,7 +40,7 @@ Alternatively, goto https://soemyatmyat.github.io/pwa-BMI-calculator/
 1. A clean and simple web app, downloadable as an app to computing devices (laptops, phones, tablets, etc.)<br/>
 ![How it looks in Browser](https://github.com/soemyatmyat/pwa-BIM-calculator/blob/master/OnChromeBrowser.png?raw=true)
 2. Works without an internet (all necessary files are cached) 
-![As An App](https://github.com/soemyatmyat/pwa-BIM-calculator/blob/master/AppMacOS.png?raw=true)
+![As An App](https://github.com/soemyatmyat/pwa-BIM-calculator/blob/master/AppMacOS.png?raw=true)<br/>
 ![App Open](https://github.com/soemyatmyat/pwa-BIM-calculator/blob/master/OnInstallableApp.png?raw=true)
 
 
